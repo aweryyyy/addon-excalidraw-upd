@@ -10,7 +10,7 @@ RUN git clone https://github.com/excalidraw/excalidraw.git
 WORKDIR excalidraw
 
 # build excalidraw
-FROM node:14-alpine AS build
+FROM node:20-alpine AS build
 
 WORKDIR /opt/node_app
 
